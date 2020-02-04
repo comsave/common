@@ -53,7 +53,7 @@ abstract class AbstractHasDispatcher
      */
     protected function dispatch($name, Event $event)
     {
-        return $this->getEventDispatcher()->dispatch($name, $event);
+        return $this->getEventDispatcher()->dispatch($event, $name);
     }
 }
 
