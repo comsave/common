@@ -3,7 +3,7 @@ namespace Phpforce\Common;
 
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\EventDispatcher\EventDispatcher;
-use Symfony\Component\EventDispatcher\Event;
+use Symfony\Contracts\EventDispatcher\Event;
 
 /**
  * Can be extended by classes that dispatch events using the event dispatcher
